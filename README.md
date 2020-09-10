@@ -13,9 +13,9 @@ This library supports at the moment Android only.
 
 To get started and make sure to configure it well please learn more about Play Store in-app updates [here](https://developer.android.com/guide/playcore/in-app-updates) first.
 
-`$ yarn add react-native-in-app-update`
-or
-`$ npm install react-native-in-app-update --save`
+Install via repo
+
+`$ yarn add https://github.com/franznkemaka/react-native-in-app-update`
 
 ### Mostly automatic installation
 
