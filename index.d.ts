@@ -1,4 +1,4 @@
-declare module 'react-native-in-app-update' {
+declare module 'rn-in-app-update' {
     interface InAppUpdate {
         /**
          * Check for updates

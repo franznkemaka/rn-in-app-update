@@ -19,7 +19,7 @@ Install via repo
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-in-app-update`
+`$ react-native link rn-in-app-update`
 
 ### Manual installation
 
@@ -33,19 +33,19 @@ Install via repo
 
 2. Append the following lines to `android/settings.gradle`:
     ```
-    include ':react-native-in-app-update'
-    project(':react-native-in-app-update').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-in-app-update/android')
+    include ':rn-in-app-update'
+    project(':rn-in-app-update').projectDir = new File(rootProject.projectDir, 	'../node_modules/rn-in-app-update/android')
     ```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
 
     ```
-      compile project(':react-native-in-app-update')
+      compile project(':rn-in-app-update')
     ```
 
 ## ℹ️ Usage
 
 ```javascript
-import RNInAppUpdate from 'react-native-in-app-update';
+import RNInAppUpdate from 'rn-in-app-update';
 
 componentDidMount(){
    // check for updates and show modal if available

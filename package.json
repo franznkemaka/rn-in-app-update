@@ -1,5 +1,5 @@
 {
-    "name": "react-native-in-app-update",
+    "name": "rn-in-app-update",
     "version": "0.0.1",
     "description": "Perform in-app updates easily",
     "main": "index.js",
