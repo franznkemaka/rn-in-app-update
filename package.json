@@ -1,0 +1,15 @@
+{
+    "name": "react-native-in-app-update",
+    "version": "0.0.1",
+    "description": "Perform in-app updates easily",
+    "main": "index.js",
+    "typings": "index.d.ts",
+    "keywords": [
+        "react-native"
+    ],
+    "author": "Franz Nkemaka <franz@rigle.co>",
+    "license": "MIT",
+    "peerDependencies": {
+        "react-native": "^0.41.2"
+    }
+}
