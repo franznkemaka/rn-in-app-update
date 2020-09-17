@@ -59,7 +59,7 @@ Suggest to restart app
 ```javascript
 componentDidMount(){
   InAppUpdate.checkUpdate();
-  InAppUpdate.onUpdateDownloaded((completeUpdate)=> {
+  InAppUpdate.onUpdateDownloaded(() => {
      // new update was download but not yet installed
      // reload app to apply changes
 
