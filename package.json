@@ -2,7 +2,6 @@
     "name": "rn-in-app-update",
     "version": "0.0.1",
     "description": "Perform in-app updates easily",
-    "main": "index.js",
     "typings": "index.d.ts",
     "keywords": [
         "react-native"
