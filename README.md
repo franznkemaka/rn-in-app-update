@@ -1,7 +1,7 @@
 [![Generic badge](https://img.shields.io/badge/License-MIT-green.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Android-YES-green.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/iOS-NO-red.svg)](https://shields.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/Tested-No-1abc9c.svg)](https://GitHub.com/Naereen/ama)
+[![Generic badge](https://img.shields.io/badge/Tested-YES-green.svg)](https://shields.io/)
 [![Ask Me Anything !](https://img.shields.io/badge/Published-No-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 # React Native In-App Update
@@ -76,6 +76,13 @@ componentDidMount(){
   });
 }
 ```
+
+Check out the following App example to see how it works in a real app.
+
+#### Examples
+
+-   [React Hooks example (Android)](./example/App.js)
+-   [React Class example (Android)](./example/App.js)
 
 ## 🏗 API
 
