@@ -2,7 +2,6 @@
 [![Generic badge](https://img.shields.io/badge/Android-YES-green.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/iOS-NO-red.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Tested-YES-green.svg)](https://shields.io/)
-[![Ask Me Anything !](https://img.shields.io/badge/Published-No-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 # React Native In-App Update
 
@@ -13,9 +12,9 @@ This library supports at the moment Android only.
 
 To get started and make sure to configure it well please learn more about Play Store in-app updates [here](https://developer.android.com/guide/playcore/in-app-updates) first.
 
-Install via repo
+Install via npm
 
-`$ yarn add https://github.com/franznkemaka/react-native-in-app-update`
+`$ yarn add rn-in-app-update`
 
 ### Mostly automatic installation
 

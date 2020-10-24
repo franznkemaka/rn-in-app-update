@@ -4,11 +4,27 @@
     "description": "Perform in-app updates easily",
     "typings": "index.d.ts",
     "keywords": [
+        "in-app",
+        "updates",
+        "in-app-update",
         "react-native"
     ],
     "author": "Franz Nkemaka <franz@rigle.co>",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/franznkemaka/rn-in-app-update"
+    },
     "peerDependencies": {
         "react-native": "^0.41.2"
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/franznkemaka/rn-in-app-update/issues"
+    },
+    "homepage": "https://github.com/franznkemaka/rn-in-app-update#readme",
+    "directories": {
+        "example": "example"
+    },
+    "dependencies": {},
+    "devDependencies": {}
 }
