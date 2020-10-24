@@ -1,0 +1,25 @@
+name: CI
+
+on:
+    push:
+        branches: [master]
+        paths-ignore:
+            - '*.md'
+
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        name: Publish to npm
+        if: contains(github.event.head_commit.message, '✔️') == false && contains(github.event.head_commit.message, '[ci skip]') == false
+        steps:
+            - uses: actions/checkout@v1
+            - uses: actions/setup-node@v1
+              with:
+                  node-version: 10
+
+            - name: Install dependencies
+              run: npm install
+
+            - uses: JS-DevTools/npm-publish@v1
+              with:
+                  token: ${{ secrets.NPM_TOKEN }}
