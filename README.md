@@ -10,13 +10,15 @@ This library supports at the moment Android only.
 
 ## 🎉 Getting started
 
-To get started and make sure to configure it well please learn more about Play Store in-app updates [here](https://developer.android.com/guide/playcore/in-app-updates) first.
+To get started and make sure to configure it well, please learn more about Play Store in-app updates [here](https://developer.android.com/guide/playcore/in-app-updates) first.
 
 Install via npm
 
 `$ yarn add rn-in-app-update`
 
 ### Mostly automatic installation
+
+If you are using React Native 0.60+ you can skip this step.
 
 `$ react-native link rn-in-app-update`
 
@@ -48,7 +50,7 @@ import RNInAppUpdate from 'rn-in-app-update';
 
 componentDidMount(){
    // check for updates and show modal if available
-   // on iOS this displays a warning as it not supported
+   // on iOS this displays a warning as it is not yet supported
    InAppUpdate.checkUpdate();
 }
 ```
@@ -59,7 +61,7 @@ Suggest to restart app
 componentDidMount(){
   InAppUpdate.checkUpdate();
   InAppUpdate.onUpdateDownloaded(() => {
-     // new update was download but not yet installed
+     // new update was downloaded but not yet installed
      // reload app to apply changes
 
      Alert.alert(
